@@ -1,15 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
   <title>Happy new year 2025</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <div class="container nav_container mt-5" onclick="showMessage()">
+  <div class=" nav_container mt-5" onclick="showMessage()">
     <div class="col-sm-12 col-md-12 mauto">
       <svg width="100%" height="100%" viewBox="0 0 750 500" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="newyear2020">
@@ -888,18 +893,28 @@
     </div>
   </div>
   <script src="index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
     function showMessage() {
-      Swal.fire({
+      swal({
         title: 'Happy New Year',
         text: 'Chúc mừng năm mới!!\n Đừng quá buồn vì trong đó chỉ có 1 tờ giấy vô tri vì đây cũng là tâm huyết và tấm chân tình tôi dành cho bạn. Và cũng đừng quá thất vọng nếu năm trước bạn chưa làm được cái gì ra hồn :))) Hãy nhìn nhận lại và cố gắng hơn trong năm nay nhé!! Chúc bạn năm mới vui vẻ, hạnh phúc và thành công hơn nữa!! Chúc cho những nỗ lực của bạn sẽ được đền đáp xứng đáng!! Hãy luôn tự tin và đồng hành cùng những người xung quanh vì muốn đi xa thì phải đi cùng nhau. \nThế nhé!!!',
         button: {
-          text: "From MLinh w luv",
+          text: "~From MLinh w luv~",
+          className: 'btn btn-danger',
+
         }
       })
     }
   </script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
